@@ -1,12 +1,11 @@
 {
-  "name": "w-cli",
-  "version": "1.0.0",
+  "name": "w15-cli",
+  "version": "1.0.1",
   "description": "Front end tools use to create package",
   "bin": {
     "w-cli": "./bin/index.js"
   },
   "scripts": {
-    "dev": "webpack --config webpack.config.js --watch",
     "cli": "node ./bin/index.js"
   },
   "keywords": [],
