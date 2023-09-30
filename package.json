@@ -1,0 +1,23 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter w-cli dev",
+    "cli": "pnpm --filter w-cli cli",
+    "i": "pnpm --filter w-cli install"
+  },
+  "keywords": [],
+  "author": {
+    "name": "wanghan",
+    "email": "724690450@qq.com"
+  },
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.7.2",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
